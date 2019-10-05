@@ -16,11 +16,7 @@ output:
 
 _[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense._
 
-In the study "Ecological Momentary Assessment of Stressful Events and Negative Affect in Bulimia Nervosa", (Goldschmidt et al., 2014) sought to examine the time course of events and affect preceding binging and purging in bulimia nervosa (BN) patients. The authors found that an increase in negative affect (as opposed to state affect itself) following stressful events mediates the relationship between stress and bulimic events. This was tested through a multilevel structural equation mediation model where negative affect at time 2 mediated the relationship between stressful events at time 1 and bulimic events at time 2 while controlling for levels of negative affect at time 1.
-
-The present reproduction effort aims to reproduce these  findings in the [lavaan]: http://lavaan.ugent.be "lavaan" package in R.
-
-Participants filled out six semi-randomly delivered ecological momentary assessment (EMA) surveys throughout the day for two weeks. In addition, the participants filled out daily diary surveys prior to bed and event-contingent surveys each time they engaged in an episode of binging or purging.
+In the study "Ecological Momentary Assessment of Stressful Events and Negative Affect in Bulimia Nervosa", (Goldschmidt et al., 2014) sought to examine the time course of events and affect preceding binging and purging in bulimia nervosa (BN) patients. The authors found that an increase in negative affect (as opposed to state affect itself) following stressful events mediates the relationship between stress and bulimic events. This was tested through a multilevel structural equation mediation model where negative affect at time 2 mediated the relationship between stressful events at time 1 and bulimic events at time 2 while controlling for levels of negative affect at time 1. The present reproduction effort aims to reproduce this finding in the [lavaan](http://lavaan.ugent.be) package in R.
 
 
 
@@ -28,39 +24,43 @@ Participants filled out six semi-randomly delivered ecological momentary assessm
 
 ### Power Analysis
 
-Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+_Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size._
 
 ### Planned Sample
 
-Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+_Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any._
 
 ### Materials
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+_All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article._
 
 ### Procedure
 
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+_Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article._
+
+Participants completed a phone-administered structured interview to determine preliminary BN status. Eligible participants came to an in-person informational session where they completed a baseline assessment of BN symptoms using the SCID-I/P (First, Spitzer, Gibbon, & Williams, 1997). For two weeks, participants filled out six semi-randomly delivered ecological momentary assessment (EMA) surveys each day. In addition, the participants filled out daily diary surveys prior to bed and event-contingent surveys each time they engaged in an episode of binging or purging. These surveys assessed stressful events that occurred throughout the day, levels of negative affect, and bulimic events (i.e. binging, purging by vomiting or use of laxatives).
+
+Stressful events were meaured using the Daily Stress Inventory (DSI; Brantley, Waggoner, Jones, and Rappaport, 1987). This instrument asks participants to select stressful events that occurred from a list of 60 events and to record when and how stressful these event were. Negative affects was measured with an abridged version of the Positive and Negative Affect Schedule (PANAS; Watson et al., 1988).
 
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+_Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible._
 
-**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+_**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do._
 
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+_Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect._
 
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
+_You can comment this section out prior to final report with data collection._
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+ _Sample size, demographics, data exclusions based on rules spelled out in analysis plan_
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
+  _Any differences from what was described as the original plan, or “none”._
 
 
 ## Results
@@ -68,7 +68,7 @@ You can comment this section out prior to final report with data collection.
 
 ### Data preparation
 
-Data preparation following the analysis plan.
+_Data preparation following the analysis plan._
 
 ```{r include=F}
 ###Data Preparation
@@ -84,20 +84,20 @@ Data preparation following the analysis plan.
 
 ### Confirmatory analysis
 
-The analyses as specified in the analysis plan.  
+_The analyses as specified in the analysis plan.  _
 
 *Side-by-side graph with original graph is ideal here*
 
 ### Exploratory analyses
 
-Any follow-up analyses desired (not required).  
+_Any follow-up analyses desired (not required)._
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+_Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result._
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+_Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long._
