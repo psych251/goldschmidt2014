@@ -1,4 +1,4 @@
-zPSY 251 Replication/Reproduction Project
+PSY 251 Replication/Reproduction Project
 =====
 
 Note: Due to non-response from the author, this is no longer my project choice. Please see [kalokerinos2019](https://github.com/psych251/kalokerinos20194) for my current project choice. 
