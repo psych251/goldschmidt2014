@@ -1,7 +1,7 @@
 PSY 251 Replication/Reproduction Project
 =====
 
-Note: Due to non-response from the author, this is no longer my project choice. Please see [kalokerinos2019](https://github.com/psych251/kalokerinos20194) for my current project choice. 
+Note: Due to non-response from the author, this is no longer my project choice. Please see [kalokerinos2019](https://github.com/psych251/kalokerinos2019) for my current project choice. 
 
 Published report found [here](http://rpubs.com/ashm/goldschmidt2014)
 
